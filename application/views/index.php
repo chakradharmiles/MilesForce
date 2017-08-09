@@ -26,7 +26,7 @@
               <div class="card">
                 <div class="body">
                   <form id="signin" action="<?=URL?>index/logincheck" method="POST">
-                    <div class="msg">Sign in</div>
+                    <div class="msg">Sign in chakri</div>
                   <span style="color:red;"><?=(isset($this->msg) && $this->msg !='')?$this->msg:''?> </span>
                     <div class="input-group">
                         <span class="input-group-addon">
